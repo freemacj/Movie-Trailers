@@ -1,14 +1,14 @@
 import fresh_tomatoes
 import media
 
-toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+casino_royale = media.Movie("Casino Royal", "Daniel Craig as James Bond, agent 007", "http://www.the007dossier.com/007Dossier/james-bond-007-movie-posters/casino-royale/Casino%20Royale%20Poster%203.jpg", "https://www.youtube.com/watch?v=36mnx8dBbGE")
 
-avatar = media.Movie("Avatar", "A marine on an alien planet", "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=d1_JBMrrYw8")
+quantum_of_solace = media.Movie("Quantum of Solace", "Daniel Craig as James Bond, agent 007", "http://www.the007dossier.com/007Dossier/james-bond-007-movie-posters/quantum-of-solace/Quantum%20Of%20Solace%20Poster%203.jpg", "https://www.youtube.com/watch?v=d1_JBMrrYw8")
 
-skyfall = media.Movie("Skyfall", "Daniel Craig as James Bond, agent 007", "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjG-ovs79TSAhWG5CYKHdn9BJ0QjRwIBQ&url=http%3A%2F%2Fcollider.com%2Fjames-bond-skyfall-uk-poster%2F&psig=AFQjCNGvArHlrIppdBQcllL182jKeRSHTQ&ust=1489542361855143", "https://www.youtube.com/watch?v=6kw1UVovByw")
+skyfall = media.Movie("Skyfall", "Daniel Craig as James Bond, agent 007", "http://www.impawards.com/2012/posters/skyfall_ver8.jpg", "https://www.youtube.com/watch?v=6kw1UVovByw")
 
-inception = media.Movie("Inception", "Planting an idea in a person's subconscious, or inception", "http://www.impawards.com/2010/posters/inception.jpg", "https://www.youtube.com/watch?v=66TuSJo4dZM")
+spectre = media.Movie("Spectre", "Daniel Craig as James Bond, agent 007", "http://www.impawards.com/2015/posters/spectre.jpg", "https://www.youtube.com/watch?v=ashLaclKCik")
 
-movies = [toy_story, avatar, skyfall, inception]
+movies = [casino_royale, quantum_of_solace, skyfall, spectre]
 
 fresh_tomatoes.open_movies_page(movies)
